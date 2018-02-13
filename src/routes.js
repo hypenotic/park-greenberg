@@ -11,7 +11,8 @@ an array which has objects which represent a route.
 export const routes = [
 	/*path will be appended to URL,
 	then need the component to load*/
-	{ path:'/', component: Grants, props: true },
 	{ path:'/grants', component: Grants, props: true },
 	{ path:'/faq', component: Single, props: true },
+	{ path:'/', component: Grants, props: true },
+	{ path: '*', redirect: '/' }
 ]
