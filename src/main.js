@@ -66,7 +66,7 @@ Vue.use(VueAnalytics, {
 });
 
 new Vue({
-  el: 'app',
+  el: '#app',
   router,
   store,
   render: h => h(App)
