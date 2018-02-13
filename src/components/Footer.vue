@@ -7,7 +7,7 @@
                         <div class="columns is-centered">
                             <div class="column is-4">
                                 <p>Founding Sponsor</p>
-                                <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png">
+                                <!-- <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png"> -->
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                         <div class="columns is-centered">
                             <div class="column is-4">
                                 <p>Founding Sponsor</p>
-                                <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png">
+                                <!-- <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png"> -->
                             </div>
                         </div>
                     </div>
