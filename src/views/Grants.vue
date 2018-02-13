@@ -146,7 +146,6 @@ export default {
 
 	},
 	created() {
-		console.log('hi')
 		axios.get('https://parkpeople.ca/listings/wp-json/wp/v2/pages/1070?_embed')
 		.then(response => {
             console.log(response.data)
