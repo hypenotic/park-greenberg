@@ -36,7 +36,7 @@ Vue.use(VueRouter);
 const router = new VueRouter({
 	routes, // Have to pass an object where we setup the router. ES6 syntax (routes:routes)
   	mode: 'history', // Remove the hash
-  	base: '/parkgrants',
+  	// base: '/parkgrants',
   	scrollBehavior (to, from, savedPosition) {
 		if (to.hash) {
 			console.log('HASH');
@@ -66,7 +66,7 @@ Vue.use(VueAnalytics, {
 });
 
 new Vue({
-  el: '#app',
+  el: 'app',
   router,
   store,
   render: h => h(App)
