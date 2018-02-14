@@ -93,12 +93,17 @@ h1 {
 h2 {
     font-size: 1.5rem;
     @media #{$large-and-up} {
-        font-size: 3.375rem;
+        font-size: 32px;
+        line-height: 1.3;
     }
 }
 
 h3 {
     font-size: 2.75rem;
+    @media #{$large-and-up} {
+        font-size: 28px;
+        line-height: 1.3;
+    }
 }
 
 h4 {
@@ -225,12 +230,14 @@ ol.resource__bullets {
 .topContent {
     margin: 32px 0;
     font-size: 1rem;
+    color: $body-color;
     @media #{$medium-and-up} {
 		 font-size: 1.2rem;
     }
     p {
         font-size: 1rem;
         line-height: 1.6;
+        color: $body-color;
         @media #{$medium-and-up} {
 		 font-size: 1.2rem;
          line-height: 1.5;
@@ -242,6 +249,25 @@ ol.resource__bullets {
             color: $blue;
             font-weight: bold;
         }
+    }
+    ul {
+        list-style-type: disc;
+        margin-left: 24px;
+        color: $body-color;
+        li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+            color: $body-color;
+        }
+    }
+    ul + p {
+        margin-top: 1.5rem;
+    }
+    ul + h3 {
+        // margin-top: 1.5rem;
+    }
+    h3 {
+        margin-top: 3rem;
     }
 }
 
@@ -300,7 +326,7 @@ ol.resource__bullets {
         list-style-type: disc;
         li {
             list-style-type: disc;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
         }
     }
     a {
@@ -310,6 +336,10 @@ ol.resource__bullets {
             font-weight: bold;
         }
     }
+}
+
+strong {
+    color: $body-color;
 }
 
 // Newsletter 
