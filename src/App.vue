@@ -73,7 +73,8 @@ a {
 p {
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
     color: $body-color;
 }
 
@@ -252,7 +253,7 @@ ol.resource__bullets {
     }
     ul {
         list-style-type: disc;
-        margin-left: 24px;
+        margin-left: 40px;
         color: $body-color;
         li {
             margin-bottom: 8px;
@@ -262,6 +263,9 @@ ol.resource__bullets {
     }
     ul + p {
         margin-top: 1.5rem;
+    }
+    p + ul {
+        margin-top: 0.8rem;
     }
     ul + h3 {
         // margin-top: 1.5rem;
