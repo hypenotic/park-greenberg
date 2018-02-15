@@ -47,18 +47,18 @@
 		</section> -->
 		<section class="grants-newsletter">
 			<div class="container">
-				<p>Want to stay up-to-date on Park People news?</p>
+				<p style="margin-bottom: 1rem;">Want to stay up-to-date on Park People news?</p>
 				<a class="button" href="http://parkpeople.us2.list-manage.com/subscribe?u=ba963c8c64482c0ad756245c3&id=efc9b053b8" target="_blank">Get the Park People newsletter!</a>
 			</div>
 		</section>
-		<section class="grant-sponsors">
+		<!-- <section class="grant-sponsors">
 			<p>Made possible by a great collaboration:</p>
 			<ul>
 				<li v-for="sponsor in data.meta_box._page_grant_sponsors">
 					<img :src="sponsor['_page_g_sponsor_img']" alt="logo">
 				</li>
 			</ul>
-		</section>
+		</section> -->
 	</div>
 	<div v-else class="loading-panel">
 		<div>

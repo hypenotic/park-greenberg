@@ -3,11 +3,11 @@
         <footer v-if="this.$route.path == '/faq'">
             <div>
                 <div class="columns">
-                    <div class="column is-6">
+                    <div class="column is-6" style="background-color: green; color: white;">
                         <div class="columns is-centered">
                             <div class="column is-4">
-                                <p>Founding Sponsor</p>
-                                <!-- <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png"> -->
+                                <!-- <p>Founding Sponsor</p>
+                                <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png"> -->
                             </div>
                         </div>
                     </div>
@@ -44,11 +44,11 @@
         <footer v-else class="footer-grants">
             <div>
                 <div class="columns">
-                    <div class="column is-6">
+                    <div class="column is-6" style="background-color: green; color: white;">
                         <div class="columns is-centered">
                             <div class="column is-4">
-                                <p>Founding Sponsor</p>
-                                <!-- <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png"> -->
+                                <!-- <p>Founding Sponsor</p>
+                                <img src="https://parkpeople.ca/listings/custom/uploads/2017/09/TD-logo.png"> -->
                             </div>
                         </div>
                     </div>
