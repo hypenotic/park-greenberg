@@ -2,11 +2,11 @@
 	<div v-if="loading==false">
 		<section class="section" v-if="data && data.hasOwnProperty('meta_box')">
 			<div class="container">
-				<div class="intro-logo">
+				<!-- <div class="intro-logo">
 					<img src="https://parkpeople.ca/listings/custom/uploads/2018/02/greenberg_logo_egg.png" alt="logo" class="logo">
 					<h1><span class="top-logo-text">Public Space<br/></span><span class="bottom-logo-text">Incubator</span></h1>
 				</div>
-				<h1 class="main-heading" v-html="data.meta_box._page_grant_heading"></h1>
+				<h1 class="main-heading" v-html="data.meta_box._page_grant_heading"></h1> -->
 				
 				<div class="topContent" v-html="data.content.rendered"></div>
 
