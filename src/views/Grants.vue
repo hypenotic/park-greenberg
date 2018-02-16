@@ -206,6 +206,7 @@ h1.main-heading {
 		color: grey; 
 		margin: 0;
 		font-weight: 800;
+		font-size: 35px;
 		// line-height: 1.3;
 	}
 	span.bottom-logo-text {
