@@ -6,7 +6,7 @@
 					<img src="https://parkpeople.ca/listings/custom/uploads/2018/02/greenberg_logo_egg.png" alt="logo" class="logo">
 					<h1><span class="top-logo-text">Public Space<br/></span><span class="bottom-logo-text">Incubator</span></h1>
 				</div>
-				<h1 v-html="data.meta_box._page_grant_heading"></h1>
+				<h1 class="main-heading" v-html="data.meta_box._page_grant_heading"></h1>
 				
 				<div class="topContent" v-html="data.content.rendered"></div>
 
@@ -174,12 +174,22 @@ h1 {
 	line-height: 1.2;
 	font-weight: 700;
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	color: grey; 
+	margin: 0;
+	font-weight: 300;
 	@media #{$large-and-up} {
 		font-size: 30px;
 		line-height: 1.3;
 		font-weight: 700;
 		margin-top: 20px;
+		font-weight: 400;
 	}
+}
+
+h1.main-heading {
+	// font-size: 25px;
 }
 
 .intro-logo {
