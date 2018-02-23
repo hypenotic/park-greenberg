@@ -2,7 +2,7 @@
     <nav v-if="scrolled == true" id="scrolling" class="navbar green">
         <div class="navbar-brand">
             <div>
-                <a href="https://parkpeople.ca/parkgrants"><img src="https://parkpeople.ca/listings/custom/uploads/2018/02/park_logo_shadow.png" class="grants-logo"></a>
+                <a href="https://parkpeople.ca"><img src="https://parkpeople.ca/listings/custom/themes/parkpeople/dist/images/parkpeople-logo-PMS.png" class="grants-logo"></a>
             </div>
         </div>
 
@@ -26,7 +26,7 @@
     <nav v-else class="navbar green">
         <div class="navbar-brand">
             <div>
-                <a href="https://parkpeople.ca/parkgrants"><img src="https://parkpeople.ca/listings/custom/uploads/2018/02/park_logo_shadow.png" class="grants-logo"></a>
+                <a href="https://parkpeople.ca"><img src="https://parkpeople.ca/listings/custom/themes/parkpeople/dist/images/parkpeople-logo-PMS.png" class="grants-logo"></a>
             </div>
         </div>
 
@@ -221,7 +221,7 @@ nav#scrolling {
     margin-top: 3px;
     margin-left: 8px; 
     @media #{$large-and-up} {
-		max-height: 70px;
+		max-height: 50px;
         width: auto;
         margin-top: 8px;
         margin-bottom: 2px;
