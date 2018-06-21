@@ -52,7 +52,7 @@
 		<section class="grants-newsletter">
 			<div class="container">
 				<p style="margin-bottom: 1rem;">Want to stay up-to-date on Park People news?</p>
-				<a class="button" href="http://parkpeople.us2.list-manage.com/subscribe?u=ba963c8c64482c0ad756245c3&id=efc9b053b8" target="_blank">Get the Park People newsletter!</a>
+				<a class="button" href="http://eepurl.com/dx3BWX" target="_blank">Get the Park People newsletter!</a>
 			</div>
 		</section>
 		<!-- <section class="grant-sponsors">
